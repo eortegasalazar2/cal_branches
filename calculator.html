@@ -1,32 +1,33 @@
 <!DOCTYPE html><html><head>
-<<<<<<< HEAD
-<title>Calculator copiado de master</title><meta charset="utf-8">
+<title>Elena Calculator</title><meta charset="utf-8">
+<script type="text/javascript">
 
-</script>
+	function cube() {
+		var num = document.getElementById("n1");
+		num.value = Math.pow(num.value, 3);
+	}
+
+	function elevar() {
+		var num = document.getElementById("n1");
+		num.value = Math.pow(num.value, 4);
+	}
+
+	function square() {
+		var num = document.getElementById("n1");
+		num.value = num.value * num.value;
+	}
+
+</script> 
+
 </head>
-<body>
 
-      	<h1>Calculadora de Elena Ortega Salazar</h1>
+<body>
       	Number:
       	<input type="text" id="n1">
-	<script type="text/javascript">
-		function cube() {
-			var num = document.getElementById("n1");
-			num.value = Math.pow(num.value, 3);
-		}
-		function elevar4() {
-			var num = documento.getElementById("n1");
-			num.value = Math.pow(num.value, 4);
-
-		function square() {
-			var num = document.getElementById("n1");
-			num.value = num.value * num.value;
-                }
-	</script> 
-  <button onclick="cube()"> x<sup>3</sup> </button>
-  <button onclick="elevar4()"> x<sup>4</sup> </button>
-  <button onclick="square()"> x<sup>2</sup> </button>
+		
+		  <button onclick="cube()"> x<sup>3</sup> </button>
+  		  <button onclick="elevar()"> x<sup>4</sup> </button>
+  		  <button onclick="square()"> x<sup>2</sup> </button>
 
 </body>
 </html>
-
